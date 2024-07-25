@@ -49,7 +49,7 @@ export default async function createQuestionCollection() {
   console.log("Question Attributes created");
 
   //create indexes
-  /*
+
   await Promise.all([
     databases.createIndex(
       db,
@@ -68,5 +68,4 @@ export default async function createQuestionCollection() {
       ["asc"]
     ),
   ]);
-  */
 }
